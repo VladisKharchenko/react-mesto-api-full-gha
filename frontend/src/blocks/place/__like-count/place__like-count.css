@@ -1,0 +1,6 @@
+.place__like-count {
+  display: flex;
+  justify-content: center;
+  margin-right: 4px;
+  margin-top: 2px;
+}

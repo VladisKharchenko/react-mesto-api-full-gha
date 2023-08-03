@@ -1,0 +1,14 @@
+.profile__image {
+  width: 120px;
+  min-width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .profile__image {
+    margin-bottom: 25.25px;
+  }
+}

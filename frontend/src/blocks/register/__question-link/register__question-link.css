@@ -1,0 +1,14 @@
+.register__question-link {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.register__question-link:hover {
+  opacity: 0.6;
+  transition: opacity 1s linear 0.5s;
+}

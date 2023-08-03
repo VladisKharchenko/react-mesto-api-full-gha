@@ -1,0 +1,13 @@
+.header__login {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header__login:hover {
+  opacity: 0.6;
+  transition: opacity 1s linear 0.5s;
+}

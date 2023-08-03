@@ -1,0 +1,36 @@
+.profile__overlay {
+  width: 120px;
+  min-width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile__overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: url(../../../images/white-pen-avatar-button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  transition: opacity 1s linear 0.5s;
+  z-index: -1;
+}
+
+.profile__overlay:hover::after {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 767px) {
+  .profile__overlay {
+    margin-bottom: 25.25px;
+  }
+}

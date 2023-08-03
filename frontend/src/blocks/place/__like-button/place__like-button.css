@@ -1,0 +1,17 @@
+.place__like-button {
+  background-image: url(../../../images/white-heart-like-button.svg);
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 19px;
+}
+
+.place__like-button:hover {
+  opacity: 0.5;
+  transition: opacity 1s linear 0.5s;
+}
