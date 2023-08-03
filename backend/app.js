@@ -17,7 +17,7 @@ const app = express();
 app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
 
 app.use(cookieParser());
-const port = 4000;
+const port = 3000;
 
 const urlRegex = /^https?:\/\/[^\s/$.?#]+\.[^\s]*$/;
 
