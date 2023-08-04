@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 62.84.119.52
+IP 62.84.119.52
 
 Frontend https://ciganru.nomoreparties.co
 
