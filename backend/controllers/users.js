@@ -7,7 +7,7 @@ const CustomError = require('../errors/custom-err');
 const UnauthorizedError = require('../errors/unauthorized-err');
 
 const CREATED_SUCCESSFULLY = 201;
-const { NODE_ENV, JWT_SECRET } = process.env;
+const { JWT_SECRET } = process.env;
 
 const getUsers = async (req, res, next) => {
   try {
@@ -126,7 +126,7 @@ const login = async (req, res, next) => {
 
     const payload = { _id: user._id };
 
-    const token = jwt.sign(payload, NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret', { expiresIn: '1w' });
+    const token = jwt.sign(payload, JWT_SECRET, { expiresIn: '1w' });
 
     res.cookie('jwt', token, { httpOnly: true, maxAge: 604800000, sameSite: true });
 
