@@ -86,7 +86,7 @@ class Api {
 }
 
 const api = new Api({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'https://api.ciganru.nomoreparties.co',
   headers: {
     authorization: 'd7db98be-0f68-4b1c-bf6a-476af911ba25',
     'Content-Type': 'application/json',

@@ -37,4 +37,4 @@ export const popupInputAbout = document.querySelector('.popup__input_type_about-
 export const profileName = document.querySelector('.profile__name');
 export const profileAbout = document.querySelector('.profile__about-yourself');
 
-export const BASE_URL = 'http://localhost:3000';
+export const BASE_URL = 'https://api.ciganru.nomoreparties.co';
